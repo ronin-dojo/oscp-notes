@@ -1,6 +1,7 @@
-## Escalating to "interactive" shell
+## Escalating to ["interactive" shell](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 ### Linux
 1. With root, can set SUID bit to /bin/bash
+2. python -c 'import pty; pty.spawn("/bin/bash")' (if python exists)
 ## Initial Enumeration
 
 ```
